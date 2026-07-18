@@ -1,0 +1,331 @@
+[
+  {
+    "id": "phdnd-001",
+    "imageRef": "phdnd-001_ph001_f01.png",
+    "label": "Prostaglandin pathway",
+    "category": "Physiology & Mechanisms",
+    "brick": "Nonopioid Analgesics: Acetaminophen"
+  },
+  {
+    "id": "phdnd-002",
+    "imageRef": "phdnd-002_ph001_f02.png",
+    "label": "NAPQI pathway",
+    "category": "Pharmacology",
+    "brick": "Nonopioid Analgesics: Acetaminophen"
+  },
+  {
+    "id": "phdnd-003",
+    "imageRef": "phdnd-003_ph001_f03.png",
+    "label": "Rumack-Matthew nomogram",
+    "category": "Lab & Diagnostics",
+    "brick": "Nonopioid Analgesics: Acetaminophen"
+  },
+  {
+    "id": "phdnd-004",
+    "imageRef": "phdnd-004_ph002_f01.png",
+    "label": "Adrenergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-005",
+    "imageRef": "phdnd-005_ph002_f02.png",
+    "label": "Cholinergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-006",
+    "imageRef": "phdnd-006_ph002_f03.png",
+    "label": "Adrenergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-007",
+    "imageRef": "phdnd-007_ph003_f03.png",
+    "label": "Cushing syndrome",
+    "category": "Pathology",
+    "brick": "Steroids"
+  },
+  {
+    "id": "phdnd-008",
+    "imageRef": "phdnd-008_ph004_f03.png",
+    "label": "Adrenergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-009",
+    "imageRef": "phdnd-009_ph004_f06.png",
+    "label": "Adrenergic G-proteins",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-010",
+    "imageRef": "phdnd-010_ph005_f01.png",
+    "label": "Lipoprotein metabolism",
+    "category": "Physiology & Mechanisms",
+    "brick": "Antihyperlipidemic Drugs: Statins"
+  },
+  {
+    "id": "phdnd-011",
+    "imageRef": "phdnd-011_ph007_f01.png",
+    "label": "Prostate",
+    "category": "Pharmacology",
+    "brick": "Alpha-1 Adrenergic Blockers"
+  },
+  {
+    "id": "phdnd-012",
+    "imageRef": "phdnd-012_ph008_f01.png",
+    "label": "Adrenergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-013",
+    "imageRef": "phdnd-013_ph008_f02.png",
+    "label": "Cholinergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-014",
+    "imageRef": "phdnd-014_ph008_f03.png",
+    "label": "Adrenergic receptors",
+    "category": "Pharmacology",
+    "brick": "Vasopressors and Inotropes"
+  },
+  {
+    "id": "phdnd-015",
+    "imageRef": "phdnd-015_ph009_f01.png",
+    "label": "Acid secretion",
+    "category": "Physiology & Mechanisms",
+    "brick": "Acid Suppression Drugs: PPIs and H2 Blockers"
+  },
+  {
+    "id": "phdnd-016",
+    "imageRef": "phdnd-016_ph009_f02.png",
+    "label": "Parietal cell",
+    "category": "Pharmacology",
+    "brick": "Acid Suppression Drugs: PPIs and H2 Blockers"
+  },
+  {
+    "id": "phdnd-017",
+    "imageRef": "phdnd-017_ph009_f03.png",
+    "label": "PPI adverse effects",
+    "category": "Pharmacology",
+    "brick": "Acid Suppression Drugs: PPIs and H2 Blockers"
+  },
+  {
+    "id": "phdnd-018",
+    "imageRef": "phdnd-018_ph010_f01.png",
+    "label": "Drug routes",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Drug Absorption and Distribution"
+  },
+  {
+    "id": "phdnd-019",
+    "imageRef": "phdnd-019_ph010_f02.png",
+    "label": "First-pass metabolism",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Drug Absorption and Distribution"
+  },
+  {
+    "id": "phdnd-020",
+    "imageRef": "phdnd-020_ph011_f01.png",
+    "label": "Adrenergic receptors",
+    "category": "Physiology & Mechanisms",
+    "brick": "Beta-Agonists"
+  },
+  {
+    "id": "phdnd-021",
+    "imageRef": "phdnd-021_ph013_f01.png",
+    "label": "Corpora cavernosa",
+    "category": "Gross Anatomy",
+    "brick": "PDE-5 Inhibitors"
+  },
+  {
+    "id": "phdnd-022",
+    "imageRef": "phdnd-022_ph015_f01.png",
+    "label": "Excitation-contraction coupling",
+    "category": "Physiology & Mechanisms",
+    "brick": "Calcium Channel Blockers"
+  },
+  {
+    "id": "phdnd-023",
+    "imageRef": "phdnd-023_ph015_f02.png",
+    "label": "Calcium channel blocker",
+    "category": "Pharmacology",
+    "brick": "Calcium Channel Blockers"
+  },
+  {
+    "id": "phdnd-024",
+    "imageRef": "phdnd-024_ph017_f01.png",
+    "label": "Cholinergic synapse",
+    "category": "Physiology & Mechanisms",
+    "brick": "Cholinergics and Anticholinergics"
+  },
+  {
+    "id": "phdnd-025",
+    "imageRef": "phdnd-025_ph017_f02.png",
+    "label": "Anticholinergic toxidrome",
+    "category": "Pharmacology",
+    "brick": "Cholinergics and Anticholinergics"
+  },
+  {
+    "id": "phdnd-026",
+    "imageRef": "phdnd-026_ph018_f01.png",
+    "label": "H1 receptor",
+    "category": "Physiology & Mechanisms",
+    "brick": "H1 Blockers: Antihistamines"
+  },
+  {
+    "id": "phdnd-027",
+    "imageRef": "phdnd-027_ph019_f03.png",
+    "label": "Organophosphate",
+    "category": "Pharmacology",
+    "brick": "Cholinesterase Inhibitors and Reactivators"
+  },
+  {
+    "id": "phdnd-028",
+    "imageRef": "phdnd-028_ph022_f01.png",
+    "label": "Opioid receptors",
+    "category": "Pharmacology",
+    "brick": "Opioid Agonists"
+  },
+  {
+    "id": "phdnd-029",
+    "imageRef": "phdnd-029_ph022_f02.png",
+    "label": "CNS opioid receptors",
+    "category": "Pharmacology",
+    "brick": "Opioid Agonists"
+  },
+  {
+    "id": "phdnd-030",
+    "imageRef": "phdnd-030_ph023_f01.png",
+    "label": "RAAS pathway",
+    "category": "Physiology & Mechanisms",
+    "brick": "Renin-Angiotensin-Aldosterone System Inhibitors"
+  },
+  {
+    "id": "phdnd-031",
+    "imageRef": "phdnd-031_ph023_f03.png",
+    "label": "Glomerular filtration",
+    "category": "Physiology & Mechanisms",
+    "brick": "Renin-Angiotensin-Aldosterone System Inhibitors"
+  },
+  {
+    "id": "phdnd-032",
+    "imageRef": "phdnd-032_ph023_f05.png",
+    "label": "NSAID effect",
+    "category": "Physiology & Mechanisms",
+    "brick": "Renin-Angiotensin-Aldosterone System Inhibitors"
+  },
+  {
+    "id": "phdnd-033",
+    "imageRef": "phdnd-033_ph024_f02.png",
+    "label": "Metformin",
+    "category": "Pharmacology",
+    "brick": "Metformin, GLP-1 RA, and SGLT2 Inhibitors"
+  },
+  {
+    "id": "phdnd-034",
+    "imageRef": "phdnd-034_ph025_f01.png",
+    "label": "Lipid bilayer",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: pH and pKa"
+  },
+  {
+    "id": "phdnd-035",
+    "imageRef": "phdnd-035_ph026_f03.png",
+    "label": "NSAID COX selectivity",
+    "category": "Pharmacology",
+    "brick": "Nonopioid Analgesics: NSAIDs"
+  },
+  {
+    "id": "phdnd-036",
+    "imageRef": "phdnd-036_ph027_f01.png",
+    "label": "Antagonist",
+    "category": "Pharmacology",
+    "brick": "Pharmacodynamics: Receptor Agonists and Antagonists"
+  },
+  {
+    "id": "phdnd-037",
+    "imageRef": "phdnd-037_ph028_f01.png",
+    "label": "Graded dose-response",
+    "category": "Physiology & Mechanisms",
+    "brick": "Pharmacodynamics: Quantal Dose Response and Therapeutic Index"
+  },
+  {
+    "id": "phdnd-038",
+    "imageRef": "phdnd-038_ph028_f02.png",
+    "label": "Quantal dose curve",
+    "category": "Physiology & Mechanisms",
+    "brick": "Pharmacodynamics: Quantal Dose Response and Therapeutic Index"
+  },
+  {
+    "id": "phdnd-039",
+    "imageRef": "phdnd-039_ph028_f04.png",
+    "label": "Therapeutic index",
+    "category": "Physiology & Mechanisms",
+    "brick": "Pharmacodynamics: Quantal Dose Response and Therapeutic Index"
+  },
+  {
+    "id": "phdnd-040",
+    "imageRef": "phdnd-040_ph028_f05.png",
+    "label": "Dose-response curves",
+    "category": "Physiology & Mechanisms",
+    "brick": "Pharmacodynamics: Quantal Dose Response and Therapeutic Index"
+  },
+  {
+    "id": "phdnd-041",
+    "imageRef": "phdnd-041_ph029_f01.png",
+    "label": "Arachidonic acid pathway",
+    "category": "Physiology & Mechanisms",
+    "brick": "Nonopioid Analgesics: Aspirin"
+  },
+  {
+    "id": "phdnd-042",
+    "imageRef": "phdnd-042_ph029_f02.png",
+    "label": "Aspirin acetylation",
+    "category": "Pharmacology",
+    "brick": "Nonopioid Analgesics: Aspirin"
+  },
+  {
+    "id": "phdnd-043",
+    "imageRef": "phdnd-043_ph030_f03.png",
+    "label": "Zero-order kinetics",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Volume of Distribution and Elimination Kinetics"
+  },
+  {
+    "id": "phdnd-044",
+    "imageRef": "phdnd-044_ph030_f04.png",
+    "label": "Zero-order elimination",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Volume of Distribution and Elimination Kinetics"
+  },
+  {
+    "id": "phdnd-045",
+    "imageRef": "phdnd-045_ph030_f05.png",
+    "label": "First-order kinetics",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Volume of Distribution and Elimination Kinetics"
+  },
+  {
+    "id": "phdnd-046",
+    "imageRef": "phdnd-046_ph030_f06.png",
+    "label": "First-order elimination",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Volume of Distribution and Elimination Kinetics"
+  },
+  {
+    "id": "phdnd-047",
+    "imageRef": "phdnd-047_ph030_f07.png",
+    "label": "Steady state",
+    "category": "Pharmacology",
+    "brick": "Pharmacokinetics: Volume of Distribution and Elimination Kinetics"
+  }
+]
