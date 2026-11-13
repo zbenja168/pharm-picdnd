@@ -77,9 +77,11 @@
     "label": "Cushing syndrome",
     "category": "Pathology",
     "brick": "Steroids",
-    "order": 1000000,
+    "order": 32,
     "explanation": "Chronic glucocorticoid exposure suppresses fibroblast activity and collagen synthesis while promoting protein breakdown, thinning the dermis. The weakened, thin skin stretches over expanding central fat and tears, exposing dermal vasculature as the characteristic wide purple striae seen in iatrogenic Cushing syndrome.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 1"
   },
   {
     "id": "phdnd-008",
@@ -303,9 +305,11 @@
     "label": "H1 receptor",
     "category": "Physiology & Mechanisms",
     "brick": "H1 Blockers: Antihistamines",
-    "order": 1000000,
+    "order": 40,
     "explanation": "The diagram depicts the H1 histamine receptor, a seven-transmembrane G protein-coupled receptor. Histamine released from the activated mast cell binds this GPCR to trigger downstream effects (itching, swelling, inflammation); an H1 antagonist occupies the receptor and leaves it inactive, preventing signaling. H1 receptors are not ion channels, kinase receptors, or nuclear receptors.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 3"
   },
   {
     "id": "phdnd-027",
@@ -325,9 +329,11 @@
     "label": "Opioid receptors",
     "category": "Pharmacology",
     "brick": "Opioid Agonists",
-    "order": 1000000,
+    "order": 33,
     "explanation": "Most clinically used opioid agonists act primarily at mu (μ) receptors, which mediate analgesia, euphoria, respiratory depression, and dependence. Kappa and delta receptors modulate these effects and contribute to other actions but are not the main analgesic target.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 1"
   },
   {
     "id": "phdnd-029",
@@ -335,9 +341,11 @@
     "label": "CNS opioid receptors",
     "category": "Pharmacology",
     "brick": "Opioid Agonists",
-    "order": 1000000,
+    "order": 33,
     "explanation": "In the dorsal horn, presynaptic opioid receptors reduce calcium influx and inhibit release of excitatory neurotransmitters (e.g., substance P, glutamate) from primary afferents, while postsynaptic hyperpolarization decreases transmission of nociceptive signals, producing analgesia.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 1"
   },
   {
     "id": "phdnd-030",
@@ -345,9 +353,11 @@
     "label": "RAAS pathway",
     "category": "Physiology & Mechanisms",
     "brick": "Renin-Angiotensin-Aldosterone System Inhibitors",
-    "order": 1000000,
+    "order": 36,
     "explanation": "The diagram shows renin acting on angiotensinogen to form angiotensin I, ACE converting it to angiotensin II, and downstream aldosterone secretion, which is the classic renin-angiotensin-aldosterone system (RAAS) that regulates blood pressure and volume.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 2"
   },
   {
     "id": "phdnd-031",
@@ -355,9 +365,11 @@
     "label": "Glomerular filtration",
     "category": "Physiology & Mechanisms",
     "brick": "Renin-Angiotensin-Aldosterone System Inhibitors",
-    "order": 1000000,
+    "order": 36,
     "explanation": "Angiotensin II normally constricts the efferent arteriole to maintain glomerular pressure and filtration. When RAAS inhibitors dilate the efferent arteriole, glomerular hydrostatic pressure and GFR fall, which can precipitate prerenal acute kidney injury in low-flow states.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 2"
   },
   {
     "id": "phdnd-032",
@@ -365,9 +377,11 @@
     "label": "NSAID effect",
     "category": "Physiology & Mechanisms",
     "brick": "Renin-Angiotensin-Aldosterone System Inhibitors",
-    "order": 1000000,
+    "order": 36,
     "explanation": "NSAIDs inhibit prostaglandin synthesis, constricting the afferent arteriole and reducing renal blood flow. Combined with RAAS inhibitors that dilate the efferent arteriole, this greatly increases the risk of acute kidney injury.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 2"
   },
   {
     "id": "phdnd-033",
@@ -375,9 +389,11 @@
     "label": "Metformin",
     "category": "Pharmacology",
     "brick": "Metformin, GLP-1 RA, and SGLT2 Inhibitors",
-    "order": 1000000,
+    "order": 37,
     "explanation": "The agent depicted is metformin. In skeletal muscle it activates AMPK, the cellular sensor of AMP:ATP and ADP:ATP ratios, which drives GLUT-4 translocation to the membrane and increases insulin-mediated glucose uptake. Metformin also decreases hepatic gluconeogenesis and glycogenolysis and reduces intestinal glucose absorption, together improving insulin sensitivity.",
-    "weekName": "More topics"
+    "weekName": "Week 4",
+    "week": 4,
+    "sessionName": "Session 2"
   },
   {
     "id": "phdnd-034",
