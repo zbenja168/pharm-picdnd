@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
-import { BrandBadge, BrandCard, LogoMark } from './components/Brand'
+import { BrandBadge, BrandCard } from './components/Brand'
+import { SiteHeader, lectureName } from './components/SiteHeader'
 
 type Item = { id: string; imageRef: string; label: string; category: string; brick?: string; explanation?: string; order?: number; week?: number; weekName?: string; sessionName?: string }
 
@@ -84,24 +85,21 @@ export default function App() {
   if (brick === null) {
     return (
       <Shell>
-        <BrandCard />
-        <div className="mt-6 rounded-2xl border border-slate-700 bg-slate-800/40 p-6">
-          <h1 className="flex items-center gap-3 text-2xl font-bold text-slate-100">
-            <LogoMark size={30} /> Picture Match
-          </h1>
+        <div className="rounded-2xl border border-slate-700 bg-slate-800/40 p-4 sm:p-6">
+          <h2 className="text-xl font-bold text-slate-100">Match the figures</h2>
           <p className="mt-2 text-slate-300">
             Drag each name onto the matching picture — or tap a name, then tap its picture.
             Pick a brick to study, or match everything.
           </p>
           <button
             onClick={() => play(ALL)}
-            className="mt-5 w-full rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-6 py-3 text-left font-semibold text-slate-900 hover:opacity-90"
+            className="mt-5 w-full rounded-xl at-btn-primary px-5 py-3 text-left font-semibold"
           >
             All bricks — {items.length} figures (shuffled) →
           </button>
           <div className="mt-5 border-t border-slate-700 pt-4">
             <p className="mb-2 text-sm font-semibold text-slate-400">Or pick a brick ({bricks.length}):</p>
-            <div className="grid gap-2 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
               {bricks.map((b, i) => {
                 const prev = bricks[i - 1]
                 const newWeek = b.weekName && b.weekName !== prev?.weekName
@@ -109,17 +107,17 @@ export default function App() {
                 return (
                 <Fragment key={b.name}>
                 {newWeek && (
-                  <div className={`sm:col-span-2 rounded-lg border border-sky-900/60 bg-sky-950/30 px-3 py-2 text-sm font-bold text-sky-300 ${i ? 'mt-3' : ''}`}>{b.weekName}</div>
+                  <div className={`sm:col-span-2 at-wrap rounded-lg border border-sky-900/60 bg-sky-950/30 px-3 py-2 text-sm font-bold text-sky-300 ${i ? 'mt-3' : ''}`}>{b.weekName}</div>
                 )}
                 {newSession && (
-                  <div className="sm:col-span-2 px-1 pt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">{b.sessionName}</div>
+                  <div className="sm:col-span-2 at-wrap px-1 pt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">{b.sessionName}</div>
                 )}
                 <button
                   key={b.name}
                   onClick={() => play(b.name)}
-                  className="flex items-center justify-between rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-left text-sm text-slate-200 hover:border-sky-400"
+                  className="flex min-h-10 min-w-0 items-center justify-between gap-2 rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-left text-sm text-slate-200 hover:border-sky-400"
                 >
-                  <span className="truncate pr-2">{b.name}</span>
+                  <span className="at-wrap flex-1">{lectureName(b.name)}</span>
                   <span className="shrink-0 rounded-full bg-slate-700 px-2 py-0.5 text-xs text-slate-300">{b.items.length}</span>
                 </button>
                 </Fragment>
@@ -128,6 +126,7 @@ export default function App() {
             </div>
           </div>
         </div>
+        <BrandCard kind="game" />
       </Shell>
     )
   }
@@ -138,14 +137,14 @@ export default function App() {
     return (
       <Shell>
         <div className="rounded-2xl border border-slate-700 bg-slate-800/40 p-8 text-center">
-          <h1 className="text-2xl font-bold text-slate-100">Done! 🎉</h1>
-          <p className="mt-2 text-sm text-slate-400">{brick === ALL ? 'All bricks' : brick}</p>
+          <h2 className="text-2xl font-bold text-slate-100">Done!</h2>
+          <p className="mt-2 text-sm text-slate-400 at-wrap">{brick === ALL ? 'All bricks' : lectureName(brick)}</p>
           <p className="mt-3 text-lg text-slate-300">
             {correct} correct on the first try · {wrong} misses ·{' '}
             <span className="font-semibold text-teal-300">{pct}% first-try accuracy</span>
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <button onClick={() => play(brick)} className="rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-6 py-3 font-semibold text-slate-900 hover:opacity-90">Play again</button>
+            <button onClick={() => play(brick)} className="rounded-xl at-btn-primary px-6 py-3 font-semibold">Play again</button>
             <button onClick={toMenu} className="rounded-xl border border-slate-600 bg-slate-800 px-6 py-3 font-semibold text-slate-200 hover:border-slate-400">Choose another brick</button>
           </div>
         </div>
@@ -156,11 +155,11 @@ export default function App() {
   return (
     <Shell>
       <div className="mb-4 flex items-center justify-between gap-3">
-        <button onClick={toMenu} className="flex items-center gap-2 text-sm font-bold text-slate-100 hover:text-sky-300">
-          <LogoMark size={22} /> Picture Match
+        <button onClick={toMenu} className="flex min-h-10 shrink-0 items-center gap-1 text-sm font-bold text-slate-100 hover:text-sky-300">
+          ← All bricks
         </button>
-        <span className="truncate text-sm text-slate-400">
-          {brick === ALL ? 'All bricks' : brick} · Round {roundIdx + 1}/{rounds.length} · {correct}✓ {wrong}✗
+        <span className="min-w-0 truncate text-sm text-slate-400">
+          {brick === ALL ? 'All bricks' : lectureName(brick)} · Round {roundIdx + 1}/{rounds.length} · {correct}✓ {wrong}✗
         </span>
       </div>
 
@@ -216,7 +215,7 @@ export default function App() {
             if (roundIdx + 1 < rounds.length) { setRoundIdx((i) => i + 1); setPlaced({}); setSelected(null) }
             else setOver(true)
           }}
-          className="mt-6 rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-6 py-3 font-semibold text-slate-900 hover:opacity-90"
+          className="mt-6 rounded-xl at-btn-primary px-6 py-3 font-semibold"
         >
           {roundIdx + 1 < rounds.length ? 'Next round →' : 'See results →'}
         </button>
@@ -227,9 +226,10 @@ export default function App() {
 
 function Shell({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen px-4 py-8">
+    <div className="min-h-screen">
       <BrandBadge />
-      <div className="mx-auto max-w-3xl">{children}</div>
+      <SiteHeader />
+      <div className="mx-auto max-w-3xl px-4 py-6 sm:py-8">{children}</div>
     </div>
   )
 }
